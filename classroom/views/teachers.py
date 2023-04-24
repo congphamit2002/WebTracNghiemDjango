@@ -55,7 +55,7 @@ class QuizCreateView(CreateView):
         quiz = form.save(commit=False)
         quiz.owner = self.request.user
         quiz.save()
-        messages.success(self.request, 'The quiz was created with success! Go ahead and add some questions now.')
+        messages.success(self.request, 'Bài kiểm tra đã được tạo thành công! Thêm một số câu hỏi ngay bây giờ.')
         return redirect('teachers:quiz_change', quiz.pk)
 
 
@@ -136,7 +136,7 @@ def question_add(request, pk):
             question = form.save(commit=False)
             question.quiz = quiz
             question.save()
-            messages.success(request, 'You may now add answers/options to the question.')
+            messages.success(request, 'Thêm các câu trả lời cho câu hỏi.')
             return redirect('teachers:question_change', quiz.pk, question.pk)
     else:
         form = QuestionForm()
@@ -174,7 +174,7 @@ def question_change(request, quiz_pk, question_pk):
             with transaction.atomic():
                 form.save()
                 formset.save()
-            messages.success(request, 'Question and answers saved with success!')
+            messages.success(request, 'Lưu câu hỏi và câu trả lời thành công!')
             return redirect('teachers:quiz_change', quiz.pk)
     else:
         form = QuestionForm(instance=question)
