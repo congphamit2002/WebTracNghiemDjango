@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d1915c0-e83a-4645-9ff6-08b11c3ec8d2" name="Changes" comment="init project">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/students/_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/students/_header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/students/interests_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/students/interests_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/students/quiz_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/students/quiz_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/students/take_quiz_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/students/take_quiz_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/students/taken_quiz_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/students/taken_quiz_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +45,10 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/django_school/asgi.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/manage.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="2Or28CtvqU6xzOSga7kImu9MyCJ" />
   <component name="ProjectViewState">
