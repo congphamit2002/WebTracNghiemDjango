@@ -91,7 +91,7 @@ class QuizDeleteView(DeleteView):
 
     def delete(self, request, *args, **kwargs):
         quiz = self.get_object()
-        messages.success(request, 'The quiz %s was deleted with success!' % quiz.name)
+        messages.success(request, 'Bài kiểm tra %s đã được xóa thành công!' % quiz.name)
         return super().delete(request, *args, **kwargs)
 
     def get_queryset(self):
@@ -202,7 +202,7 @@ class QuestionDeleteView(DeleteView):
 
     def delete(self, request, *args, **kwargs):
         question = self.get_object()
-        messages.success(request, 'The question %s was deleted with success!' % question.text)
+        messages.success(request, 'Câu hỏi %s đã được xóa thành công!' % question.text)
         return super().delete(request, *args, **kwargs)
 
     def get_queryset(self):
