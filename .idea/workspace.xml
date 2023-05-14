@@ -59,6 +59,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maivi\PycharmProjects\WebTracNghiemDjango" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="WebTracNghiemDjango" type="Python.DjangoServer" factoryName="Django server">
       <module name="WebTracNghiemDjango" />
@@ -102,7 +107,7 @@
       <workItem from="1683547585217" duration="3483000" />
       <workItem from="1683813638402" duration="3713000" />
       <workItem from="1683855067413" duration="9481000" />
-      <workItem from="1684031279931" duration="2025000" />
+      <workItem from="1684031279931" duration="2379000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1682305149042</created>
