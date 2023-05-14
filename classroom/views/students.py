@@ -13,18 +13,23 @@ from ..forms import StudentInterestsForm, StudentSignUpForm, TakeQuizForm
 from ..models import Quiz, Student, TakenQuiz, User
 
 
-class StudentSignUpView(CreateView):
+class  StudentSignUpView(CreateView):
     model = User
+
     form_class = StudentSignUpForm
+
     template_name = 'registration/signup_form.html'
 
-    def get_context_data(self, **kwargs):
+    def  get_context_data(self, **kwargs):
         kwargs['user_type'] = 'student'
+
         return super().get_context_data(**kwargs)
 
-    def form_valid(self, form):
+    def  form_valid(self, form):
         user = form.save()
+
         login(self.request, user)
+
         return redirect('students:quiz_list')
 
 
