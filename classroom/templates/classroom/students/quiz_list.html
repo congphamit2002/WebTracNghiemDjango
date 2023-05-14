@@ -17,7 +17,7 @@
           <tr>
             <td class="align-middle">{{ quiz.name }}</td>
             <td class="align-middle">{{ quiz.subject.get_html_badge }}</td>
-            <td class="align-middle">{{ quiz.questions_count }} Câu hỏi</td>
+            <td class="align-middle">{{ quiz.questions_count }} câu hỏi</td>
             <td class="text-right">
               <a href="{% url 'students:take_quiz' quiz.pk %}" class="btn btn-primary">Bắt đầu làm bài</a>
             </td>
